@@ -14,7 +14,7 @@ const ProjectCardHeader: React.FC<IProjectCardHeader> = (props) => {
       </h1>
       {project.key && project.key.trim() !== "" && process.env.REACT_APP_PROJECT_UPDATE_URL && (
         <a
-          className="update-project btn btn-primary mt-2 sm:mt-0 sm:ml-4"
+          className="update-project bg-transparent !bg-none hover:bg-gltf-green font-semibold hover:text-white py-2 px-4 border border-slate-300 hover:border-transparent rounded"
           href={process.env.REACT_APP_PROJECT_UPDATE_URL + project.key}
         >
           Update Project
