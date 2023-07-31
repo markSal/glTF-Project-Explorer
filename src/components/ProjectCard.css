@@ -1,0 +1,4 @@
+/* Needed due to the Markdown processing. */
+.project-card p {
+  @apply mr-4 mb-4;
+}
